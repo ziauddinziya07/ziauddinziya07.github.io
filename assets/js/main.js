@@ -299,3 +299,9 @@
   });
 
 })()
+
+
+document.querySelector("#me").addEventListener("click", () => {
+
+  document.querySelector("#home-link").click();
+});
