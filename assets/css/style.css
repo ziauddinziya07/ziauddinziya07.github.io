@@ -508,12 +508,20 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
+  margin-bottom: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
 }
 
 .interests .icon-box i {
   font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.interests .icon-box img {
+  max-width: 40px;
+  max-height: 40px;
   padding-right: 10px;
   line-height: 1;
 }
@@ -580,6 +588,7 @@ section .container {
 }
 
 .testimonials .testimonial-item p {
+  text-align: justify;
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
