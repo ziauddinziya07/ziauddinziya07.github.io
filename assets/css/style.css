@@ -679,6 +679,12 @@ section .container {
 /*--------------------------------------------------------------
 # projects
 --------------------------------------------------------------*/
+
+.container h4 {
+  
+  color: #18d26e;
+}
+
 .projects .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
@@ -758,6 +764,11 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.container h4 {
+  
+  color: #18d26e;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
