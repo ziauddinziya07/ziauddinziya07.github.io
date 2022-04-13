@@ -316,6 +316,4 @@ document.querySelector("#me").addEventListener("click", () => {
     document.querySelector("#home-link").click();
 });
 
-function redirect() {
-    window.location.reload(false);
-}
+
