@@ -646,6 +646,7 @@ section .container {
 
 .certificate-item img {
     width: 100%;
+    margin-top: 20px;
 }
 
 .certificate-item .info {
@@ -691,6 +692,12 @@ section .container {
     }
 }
 
+.line-break {
+    height: 2px;
+    background-color: #18d26e;
+    margin: 0px 4rem;
+}
+ 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
