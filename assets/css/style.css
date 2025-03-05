@@ -639,6 +639,33 @@ section .container {
 /*--------------------------------------------------------------
 # Certificate
 --------------------------------------------------------------*/
+.header-section {
+    opacity: 1;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    bottom: auto;
+    z-index: 3;
+    background-color: black;
+    padding: 0.75rem 4rem;
+}
+
+@media (max-width: 420px) {
+    .header-section {
+        padding: 0.75rem 1.75rem;
+    }
+}
+
+.header-section h1 {
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    line-height: 1;
+}
+
+.header-section h1 a {
+    color: white;
+}
+
 .certificate-item {
     background-color: rgba(255, 255, 255, 0.08);
     padding: 20px;
@@ -697,7 +724,7 @@ section .container {
     background-color: #18d26e;
     margin: 0px 4rem;
 }
- 
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
